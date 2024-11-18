@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b70b9436a0fb5440914a8cd812b9fe7, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  gunName: Shotgun
+  gunType: 2
+  gunPrefab: {fileID: 1224809915425683366, guid: 40d22c11f692918489573578487686e6, type: 3}
+  gunSprite: {fileID: 2800000, guid: 56ec171463810984ab1465bdc4466083, type: 3}
+  maxAmmo: 10
+  damage: 15
+  fireRate: 1
+  range: 10
+  reloadTime: 3
+  isAutomatic: 1
+  spread: 0
+  pelletCount: 3
+  spreadAngle: 25
+  muzzleFlash: {fileID: 1795072395756124, guid: d223fbf886f2aa4408426d093198ef12, type: 3}
+  shootCilp: {fileID: 8300000, guid: a4b00452749356042b0f03aa0f503a58, type: 3}
+  reloadCilp: {fileID: 8300000, guid: 1b077fbad4bed0244af25206039a428a, type: 3}
+  reloadAfterCilp: {fileID: 8300000, guid: bd2a9211514a231459d3d3749e0f8541, type: 3}

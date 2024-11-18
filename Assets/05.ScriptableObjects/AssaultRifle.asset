@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b70b9436a0fb5440914a8cd812b9fe7, type: 3}
+  m_Name: AssaultRifle
+  m_EditorClassIdentifier: 
+  gunName: AssaultRifle
+  gunType: 1
+  gunPrefab: {fileID: 5460768241344314393, guid: d85fa766840b84e49aa1f25bc79c0cf7, type: 3}
+  gunSprite: {fileID: 2800000, guid: f854c2fbf7523994eb8c14cc7fa585f1, type: 3}
+  maxAmmo: 45
+  damage: 15
+  fireRate: 0.2
+  range: 20
+  reloadTime: 3
+  isAutomatic: 1
+  spread: 0.1
+  pelletCount: 0
+  spreadAngle: 0
+  muzzleFlash: {fileID: 1795072395756124, guid: d223fbf886f2aa4408426d093198ef12, type: 3}
+  shootCilp: {fileID: 8300000, guid: 6068c26d276c2c041a58c743986c5a34, type: 3}
+  reloadCilp: {fileID: 8300000, guid: 1b077fbad4bed0244af25206039a428a, type: 3}
+  reloadAfterCilp: {fileID: 8300000, guid: bd2a9211514a231459d3d3749e0f8541, type: 3}
